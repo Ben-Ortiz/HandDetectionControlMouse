@@ -4,16 +4,26 @@ A Python script that uses AI Hand detection to use your webcam to control your m
 
 You need a webcam for this
 
-Create your environment  
-`python -m venv .venv`
+Create your environment with Python 3.11.0
 
-Activate your environment  
-`.venv\Scripts\activate`
+```
+py -3.11 -m venv myenv
+```
 
-Install Python 3.11.0 in your environment
+Activate your environment
 
-Install the dependencies from the requirements.txt  
-`pip install -r requirements.txt`
+```
+myenv\Scripts\activate
+```
 
-Rub it
-`python main.py`
+Install the dependencies from the requirements.txt
+
+```
+pip install -r requirements.txt
+```
+
+Run it
+
+```
+python main.py
+```
