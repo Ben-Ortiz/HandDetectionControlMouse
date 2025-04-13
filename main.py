@@ -78,7 +78,7 @@ while True:
         if distance < click_threshold and not clicking:
             clicking = True
             pyautogui.click()
-            print("🖱️ Click!")
+            print("Click!")
 
         elif distance >= click_threshold:
             clicking = False
@@ -92,7 +92,7 @@ while True:
 
     # Exit on 'q' or Esc key
     if cv2.waitKey(1) == ord("q") or keyboard.is_pressed("esc"):
-        print("🛑 Exiting...")
+        print("Exiting...")
         break
 
 cap.release()

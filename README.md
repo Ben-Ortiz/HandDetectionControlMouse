@@ -11,7 +11,7 @@ You need a webcam for this
 Git clone this repo
 
 ```
-git clone https://github.com/Ben-Ortiz/andDetectionControlMouse.git
+git clone https://github.com/Ben-Ortiz/HandDetectionControlMouse.git
 ```
 
 Create your environment with Python 3.11.0
