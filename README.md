@@ -2,7 +2,15 @@
 
 A Python script that uses AI Hand detection to use your webcam to control your mouse and if you click your index and thumb together it press your left mouse button
 
+## How to use this
+
 You need a webcam for this
+
+Git clone this repo
+
+```
+git clone https://github.com/Ben-Ortiz/andDetectionControlMouse.git
+```
 
 Create your environment with Python 3.11.0
 
